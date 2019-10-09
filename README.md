@@ -15,8 +15,8 @@ This plugin adds two functions for interacting with ansible vault files. Open a 
 
 It is reccomended to add mappings to run these function to your vimrc:
 ```
-nmap <silent> <leader>avv :AnsibleVaultView()<CR>
-nmap <silent> <leader>ave :AnsibleVaultEdit()<CR>
+nmap <silent> <leader>avv :AnsibleVaultView<CR>
+nmap <silent> <leader>ave :AnsibleVaultEdit<CR>
 ```
 
 ## Contributing

@@ -37,8 +37,8 @@ AnsibleVaultEdit() - opens the vault file for editing just as 'ansible-vault edi
 
 It is reccomended to add mappings to run these function to your vimrc:
 
-  nmap <silent> <leader>avv :AnsibleVaultView()<CR>
-  nmap <silent> <leader>ave :AnsibleVaultEdit()<CR>
+  nmap <silent> <leader>avv :AnsibleVaultView<CR>
+  nmap <silent> <leader>ave :AnsibleVaultEdit<CR>
 
 ======================================================================================
 Section 2: Contributing                                  *AnsibleVaultVimContributing*
