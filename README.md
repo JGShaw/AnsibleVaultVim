@@ -1,4 +1,4 @@
-# ansible-vault-vim
+# AnsibleVaultVim
 Adds helper function to edit and view ansible vault files, through the use of the ansible-vault command line utilities.
 
 ## Usage
@@ -20,4 +20,4 @@ nmap <silent> <leader>ave :AnsibleVaultEdit<CR>
 ```
 
 ## Contributing
-Issue a pull request to https://github.com/JGShaw/ansible-vault-vim
+Issue a pull request to https://github.com/JGShaw/AnsibleVaultVim
