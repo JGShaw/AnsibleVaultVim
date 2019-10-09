@@ -5,7 +5,7 @@ Adds helper function to edit and view ansible vault files, through the use of th
 To use the plugin, you will need to have a vault password file at the same directory level as where vim was opened. A variable needs to be set with the name of this password file in your vimrc as follows:
 
 ```
-let g:AnsibleVaultPasswordFile = "<<vault password file name>>"
+let g:AnsibleVaultVimPasswordFile = "<<vault password file name>>"
 ```
 
 This plugin adds two functions for interacting with ansible vault files. Open a vault file and run on the of following functions:
