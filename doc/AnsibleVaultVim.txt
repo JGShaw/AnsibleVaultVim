@@ -26,7 +26,7 @@ Install the plugin using your favourite plugin manager, for example:
 Add the following to your .vimrc, making sure to configure the vault password file
 name:
 
-  let g:AnsibleVaultVimPasswordFile = "<vault password file name>"
+  let g:AnsibleVaultVimPasswordFile = "vault password file name"
   nmap <silent> <leader>avv :AnsibleVaultView<CR>
   nmap <silent> <leader>ave :AnsibleVaultEdit<CR>
 
