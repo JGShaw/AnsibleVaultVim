@@ -1,5 +1,5 @@
 # AnsibleVaultVim
-Adds helper function to edit and view ansible vault files, through the use of the ansible-vault command line utilities.
+Adds helper functions to view and edit ansible vault files, through the use of the ansible-vault command line utilities.
 
 ## Installation
 Install the plugin using your favourite plugin manager, for example:
