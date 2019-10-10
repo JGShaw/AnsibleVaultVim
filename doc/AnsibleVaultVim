@@ -1,4 +1,4 @@
-*AnsibleVaultVim.txt* Adds helper functions to edit and view ansible vault files
+*AnsibleVaultVim* Adds helper functions to edit and view ansible vault files
          _              _ _     _    __     __          _ _ __     ___               ~
         / \   _ __  ___(_) |__ | | __\ \   / /_ _ _   _| | |\ \   / (_)_ __ ___      ~
        / _ \ | '_ \/ __| | '_ \| |/ _ \ \ / / _` | | | | | __\ \ / /| | '_ ` _ \     ~
@@ -45,7 +45,7 @@ file and run on the of following functions:
                        would. Assuming that your editor is vim, it will open a new 
                        instance of vim infront of your existing one. Edit the vault
                        file, then save and close the new vim to get back to the 
-                       original session. This is bound to `<leader>ave` in the default
+                       original session. This is bound to <leader>ave in the default
                        installation instructions.
 
 ======================================================================================
