@@ -6,7 +6,7 @@
      /_/   \_\_| |_|___/_|_.__/|_|\___| \_/ \__,_|\__,_|_|\__| \_/  |_|_| |_| |_|    ~
 
 
-      Adds helper function to edit and view ansible vault files, through the use
+      Adds helper functions to edit and view ansible vault files, through the use
                     of the ansible-vault command line utilities.
 
 ======================================================================================
