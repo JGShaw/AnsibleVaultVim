@@ -12,15 +12,17 @@
 ======================================================================================
 Contents                                                     *AnsibleVaultVimContents*
 
-    1. Installation .................................... |AnsibleVaultVimInstallation|
-    2. Usage .................................................. |AnsibleVaultVimUsage|
-    3. Contributing .................................... |AnsibleVaultVimContributing|
+    1.   Installation .................................. |AnsibleVaultVimInstallation|
+    2.   Usage ................................................ |AnsibleVaultVimUsage|
+    2.1. Automatic ....................................|AnsibleVaultVimUsageAutomatic|
+    2.2. Manual ......................................... |AnsibleVaultVimUsageManual|
+    3.   Contributing .................................. |AnsibleVaultVimContributing|
 
 ======================================================================================
 Section 1: Installation                                  *AnsibleVaultVimInstallation*
 
 Install the plugin using your favourite plugin manager, for example:
-  
+
   Plug 'JGShaw/AnsibleVaultVim'
 
 Add the following to your .vimrc, making sure to configure the vault password file
@@ -33,6 +35,10 @@ name:
 ======================================================================================
 Section 2: Usage                                                *AnsibleVaultVimUsage*
 
+Section 2.1: Automatic                                          *AnsibleVaultVimUsage*
+
+Section 2.2: Automatic                                          *AnsibleVaultVimUsage*
+
 This plugin adds two functions for interacting with ansible vault files. Open a vault
 file and run on the of following functions:
 
@@ -42,9 +48,9 @@ file and run on the of following functions:
                        instructions.
 
 - AnsibleVaultEdit() - opens the vault file for editing just as `ansible-vault edit`
-                       would. Assuming that your editor is vim, it will open a new 
+                       would. Assuming that your editor is vim, it will open a new
                        instance of vim infront of your existing one. Edit the vault
-                       file, then save and close the new vim to get back to the 
+                       file, then save and close the new vim to get back to the
                        original session. This is bound to <leader>ave in the default
                        installation instructions.
 
