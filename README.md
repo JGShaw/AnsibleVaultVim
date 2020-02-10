@@ -10,7 +10,7 @@ Plug 'JGShaw/AnsibleVaultVim'
 Add the following to your `.vimrc`, making sure to configure the vault password file name:
 ```
 let g:AnsibleVaultVimPasswordFile = "vault password file name"
-let g:AnsibleVaultVimAutomatic = true
+let g:AnsibleVaultVimAutomatic = 1
 nmap <silent> <leader>avv :AnsibleVaultView<CR>
 nmap <silent> <leader>ave :AnsibleVaultEdit<CR>
 ```
