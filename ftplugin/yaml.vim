@@ -1,11 +1,10 @@
 function ReadVaultContents()
   silent %!ansible-vault view --vault-password-file .vault %:p
-  set filetype="ENCRYPTED yaml.ansible"
 endfunction
 
 function WriteVaultContents()
-  let b:editor="vim -c 'normal :set paste^MggVGxi" . join(getline(1, '$'), "^M") . "^[:wq^M'"
-  execute "silent !clear; EDITOR=\"" . b:editor . "\" ansible-vault edit --vault-password-file " . g:AnsibleVaultVimPasswordFil
+  let b:editor="vim -c 'normal :set pasteggVGxi" . join(getline(1, '$'), "") . ":wq'"
+  execute "silent !clear; EDITOR=\"" . b:editor . "\" ansible-vault edit --vault-password-file " . g:AnsibleVaultVimPasswordFile . " " . @%
   set nomodified
   redraw!
   set term=xterm-256color
