@@ -11,7 +11,7 @@ function WriteVaultContents()
   set term=xterm-256color
 endfunction
 
-if getline(1) =~ "$ANSIBLE_VAULT*"
+if g:AnsibleVaultVimAutomatic && getline(1) =~ "$ANSIBLE_VAULT*"
   call ReadVaultContents()
   autocmd BufWriteCmd <buffer> :call WriteVaultContents()
 endif
