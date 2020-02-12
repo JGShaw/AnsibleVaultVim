@@ -3,7 +3,7 @@ function ReadVaultContents()
 endfunction
 
 function WriteVaultContents()
-  let b:contents=join(getline(1, '$'), "^M")
+  let b:contents=join(getline(1, '$'), "")
   let b:contents=escape(b:contents,"!#%")
   let b:editor=shellescape("vim -c 'normal :set pasteggVGxi" . b:contents . ":wq'")
   execute "silent !clear; EDITOR=" . b:editor . " ansible-vault edit --vault-password-file " . g:AnsibleVaultVimPasswordFile . " " . @%
